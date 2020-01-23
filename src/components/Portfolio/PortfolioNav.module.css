@@ -1,0 +1,27 @@
+.PortfolioNav {
+  display: flex;
+  padding: 0px 77px 40px 75px;
+  justify-content: space-between;
+}
+.PortfolioNav__Button {
+  border-radius: 3px;
+  border: 1px solid #ebebeb;
+  padding: 10px 27px 11px 25px;
+}
+
+.PortfolioNav__Button a {
+  text-decoration: none;
+  color: #8c8c8c;
+  font-family: 'montserrat-Regular';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+.PortfolioNav__Button:hover {
+  background-color: #998675;
+  color: #ffffff;
+}
+
+.PortfolioNav__Button:hover a:hover {
+  color: #ffffff;
+}

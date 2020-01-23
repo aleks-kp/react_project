@@ -1,0 +1,40 @@
+.footerTwitterText {
+    padding: 30px 0px 23px 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #252525;
+  }
+  .footerTwitterText p {
+    font-family: 'montserrat-Regular';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #555555;
+    margin: 0;
+  }
+  .footerTwitterText p a {
+    font-family: 'montserrat-Regular';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #00bff3;
+  }
+  .footerTwitterText p a:hover {
+    color: #009df2;
+  }
+  .footerTwitterText time {
+    font-family: 'montserrat-Regular';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #555555;
+    font-size: 12px;
+  }
+  .footerTwitterText:hover p {
+    color: #c7b299;
+  }
+  .footerTwitterText:hover time {
+    color: #ffffff;
+  }
+  .footerTwitterTextt:last-child {
+    border-bottom: none;
+  }

@@ -1,0 +1,84 @@
+.Portfolio {
+    padding: 80px 50px 81px 50px;
+  }
+  
+  .Portfolio__Title {
+    text-align: center;
+    color: #555555;
+    font-family: 'raleway-semibold';
+    font-size: 30px;
+    font-weight: 400;
+    display: block;
+    line-height: 28px;
+  }
+  
+  .Portfolio__Text {
+    color: #8c8c8c;
+    font-family: 'montserrat-Regular';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+  }
+  
+  .Portfolio__Button {
+    margin: 40px auto;
+    background-color: #998675;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 #736357;
+    font-family: 'raleway-extrabold';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    padding: 21px 39px 21px 37px;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .Portfolio__Button:hover {
+    background-color: #424241;
+    box-shadow: 0 5px 0 #454442;
+  }
+  
+  .productExampleWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  body .projects .projectsExampleLoad {
+    margin: 40px 500px 0px;
+    background-color: #998675;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 #736357;
+    font-family: 'raleway-extrabold';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    padding: 21px 39px 21px 37px;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  body .projects .projectsExampleLoad:hover {
+    background-color: #424241;
+    box-shadow: 0 5px 0 #454442;
+  }
+
+
+  @media (max-width: 899px) {
+    .productExampleWrap {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    flex-direction:column;
+justify-content:center;
+align-items:center;
+    }
+  }

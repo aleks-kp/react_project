@@ -1,0 +1,30 @@
+.firstFooterPosts__Text {
+    max-width: 263px;
+    padding: 33px 0px 21px 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #252525;
+  }
+  
+  .firstFooterPosts__Text time {
+    font-family: 'montserrat-Regular';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #363636;
+  }
+  
+  .firstFooterPosts__Text p {
+    font-family: 'montserrat-Regular';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #555555;
+    margin: 0;
+  }
+  
+  .firstFooterPosts__Text:hover time {
+    color: #ffffff;
+  }
+  .firstFooterPosts__Text:hover p {
+    color: #c7b299;
+  }

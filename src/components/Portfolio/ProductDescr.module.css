@@ -1,0 +1,93 @@
+.productExample {
+  position: relative;
+}
+
+.longDescr {
+  display: block;
+  height: 70px;
+
+
+}
+
+.productExample__Img {
+  display: block;
+}
+
+
+.productExampleDescr {
+  padding: 30px 113px 27px 28px;
+  background-color: #fbfaf8;
+  position: relative;
+}
+
+.productExampleDescr__Title {
+  color: #c7b299;
+  font-family: 'raleway-regular';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.productExampleDescr__Text {
+  color: #d1d1d1;
+  font-family: 'montserrat-Regular';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.productExample__Link,
+.productExample__Lens {
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 40%;
+  background-size: cover;
+  background-color: transparent;
+  display: none;
+}
+
+.productExample__Link {
+  left: 36%;
+  background-image: url(../img/main/products/link.png);
+}
+
+.productExample__Lens {
+  left: 50%;
+  background-image: url(../img/main/products/lupa.png);
+}
+
+.productExampleDescr:before {
+  content: '';
+  left: 23px;
+  top: -20px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent transparent #fbfaf8;
+  position: absolute;
+}
+
+.productExample:nth-child(4),
+.productExample:nth-child(5),
+.productExample:nth-child(6) {
+  margin-top: 30px;
+}
+
+.productExample:hover .productExample__Img {
+  filter: grayscale(80%);
+}
+
+.productExample:hover .productExampleDescr {
+  background-color: #362f2d;
+}
+
+.productExample:hover .productExampleDescr:before {
+  border-color: transparent transparent #362f2d;
+}
+
+.productExample:hover .productExample__Link,
+.productExample:hover .productExample__Lens {
+  display: block;
+}

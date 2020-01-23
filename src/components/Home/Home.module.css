@@ -1,0 +1,167 @@
+.mainHeader {
+    width: 100%;
+    min-height: 600px;
+    position: relative;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.mainHeaderSlider {
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.mainHeaderSliderImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.mainHeaderSliderImg img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    position: absolute;
+    z-index: 2; 
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%
+}
+
+.mainHeaderLogo {
+     box-sizing: border-box;
+     margin-top: 40px;
+     margin-left: 376px;
+     display: flex;
+     align-items: center;
+     float: left;
+}
+
+.mainHeaderLogo span {
+     color: #ffffff;
+     font-family: 'raleway-regular';
+     font-size: 34px;
+     font-weight: 400;
+     letter-spacing: -1.36px;
+}
+
+.SliderDivBtn {
+    float: left;
+    margin-top: -84px;
+    margin-left: 150px;
+
+}
+
+.SliderDivBtn:nth-child(5) {
+    float: right;
+    margin-top: -84px;
+    margin-right: 150px;
+
+}
+
+.SliderBtnRight {
+    border-bottom: solid 14px #fd0000;
+    border-left: solid 14px #fd0000;
+    opacity: 0.5;
+    width: 50px;
+    height: 50px;
+    transform: rotate(225deg);
+    display: block;    
+    float: right;
+    margin-top: -84px;
+    margin-right: 150px;
+
+}
+
+.SliderBtnLeft {
+    border-bottom: solid 14px #fd0000;
+    border-left: solid 14px #fd0000;
+    opacity: 0.5;
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
+    display: block;    
+    float: left;
+    margin-top: -84px;
+    margin-left: 150px;
+}
+
+.mainBtn {
+    background-color: #998675;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 #736357;
+    margin-top: 52px;
+    float: left;
+    margin-left: 49%;
+
+}
+
+.mainBtn span {
+    font-family: 'raleway-extrabold';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 30px 12px 30px;
+}
+
+.mainBtn:hover {
+    background-color: #424241;
+    box-shadow: 0 5px 0 #454442;
+}
+
+.btn {
+    display: none;
+}
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+    .mainBtn {
+        margin-top: 46px;
+        margin-left: 45.5%;
+    }
+    
+    .mainBtn span {
+        font-size: 12px;
+        padding: 7px 20px 7px 20px;
+    }
+
+    .SliderBtnRight, .SliderBtnLeft {
+        border-bottom: solid 12px #fd0000;
+        border-left: solid 12px #fd0000;
+        width: 30px;
+        height: 30px;  
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1279px) {
+    .mainBtn {
+        margin-top: 40px;
+        margin-left: 43.5%;
+    }
+    
+    .mainBtn span {
+        font-size: 12px;
+        padding: 7px 20px 7px 20px;
+    }
+
+    .SliderBtnRight, .SliderBtnLeft {
+        border-bottom: solid 8px #fd0000;
+        border-left: solid 8px #fd0000;
+        width: 25px;
+        height: 25px;  
+    }
+}

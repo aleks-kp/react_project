@@ -1,0 +1,97 @@
+.firstFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: #191919;
+  }
+  
+  .firstFooterLogo {
+    width: 22.71%;
+    position: relative;
+  }
+  
+  .firstFooterLogo span {
+    color: #ffffff;
+    font-family: 'raleway-regular';
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -1.36px;
+  }
+  
+  .firstFooterLogo p {
+    color: #555555;
+    font-family: 'montserrat-Regular';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  
+  .firstFooterLogo a {
+    color: #d1d1d1;
+    font-family: 'montserrat-Regular';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-decoration: none;
+  }
+  
+  .firstFooterLogo a:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px;
+    border-color: transparent transparent transparent #c7b299;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 3px;
+  }
+  
+  .firstFooterLogo a:hover {
+    color: #c7b299;
+  }
+  
+  .firstPosts {
+    padding-top: 24px;
+  }
+  
+  .firstPosts span {
+    color: #ffffff;
+    font-family: 'raleway-regular';
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  
+  body .firstFooter .firstPosts .firstFooterPostsText:last-child {
+    border-bottom: none;
+  }
+  
+  .firstFooterTwitter {
+    padding-top: 27px;
+    max-width: 270px;
+  }
+  
+  .firstFooterTwitter span {
+    color: #ffffff;
+    font-family: 'raleway-regular';
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .firstFooterWidget {
+    padding-top: 27px;
+    max-width: 270px;
+  }
+  .firstFooterWidget span {
+    color: #ffffff;
+    font-family: 'raleway-regular';
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .firstFooterWidgetWrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }

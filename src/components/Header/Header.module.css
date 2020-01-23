@@ -1,0 +1,87 @@
+.main {
+    width: 100%;
+    min-height: 102px;
+    position: relative;
+    background-color: orange;
+    margin: 0 auto;
+}
+
+.mainHeaderLogo {
+     box-sizing: border-box;
+     margin-top: 1%;
+     margin-left: 10%;
+     display: flex;
+     align-items: center;
+     float: left;
+}
+
+.mainHeaderLogo span {
+     color: #ffffff;
+     font-family: 'raleway-regular';
+     font-size: 34px;
+     font-weight: 400;
+     letter-spacing: -1.36px;
+}
+
+.navBar {
+    width: 40%;
+    float: right;
+    padding: 15px 374px 15px 219px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarUl {
+    box-sizing: border-box;
+    float: left;
+    padding: 1%;
+}
+
+.searchForm {
+    float: right;
+    padding: 2%;
+}
+
+.searchForm__icon {
+    float: right;
+    margin-left: 28px;
+}
+
+@media (min-width: 1280px) and (max-width: 1380px) {
+    .navBar {
+    width: 30%;
+    padding: 15px 50px 15px 50px;
+    }
+
+}
+
+@media (min-width: 900px) and (max-width: 1279px) {
+    .mainHeaderLogo span {
+        font-size: 24px;
+   }
+
+   .navBar {
+    width: 30%;
+    padding: 15px 50px 15px 50px;
+   }
+
+   .searchForm {
+    padding: 3%;
+    }
+}
+
+@media (max-width: 899px) {
+    .mainHeaderLogo span {
+        font-size: 22px;
+   }
+
+   .navBar {
+    width: 30%;
+    padding: 15px 50px 15px 50px;
+   }
+
+   .searchForm {
+    padding: 3%;
+    }
+}

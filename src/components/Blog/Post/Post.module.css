@@ -1,0 +1,125 @@
+.Post {
+    position: relative;
+  }
+  
+  .Post__Img img {
+    display: block;
+  }
+  
+  .PostText {
+    padding: 30px 44px 33px 29px;
+    background-color: #fbfaf8;
+    position: relative;
+    width: 370px;
+    box-sizing: border-box;
+  }
+  
+  .PostText__Title {
+    color: #555555;
+    font-family: 'raleway-regular';
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .PostText__Сontent {
+    color: #8c8c8c;
+    font-family: 'montserrat-Regular';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+  
+  .PostText a {
+    color: #c7b299;
+    font-family: 'montserrat-Regular';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-decoration: none;
+  }
+  
+  .PostText a:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px;
+    border-color: transparent transparent transparent #c7b299;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 3px;
+  }
+  
+  .PostText a:hover {
+    color: #c19c70;
+  }
+  
+  .PostDate {
+    background-color: #363636;
+    padding: 9px 7px 9px 11px;
+    width: 15%;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    box-sizing: border-box;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  
+  .PostDate time {
+    color: #ffffff;
+    font-family: 'montserrat-Regular';
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 20px;
+  }
+  
+  .PostMonth {
+    background-color: #252525;
+    padding: 6px 10px 6px 14px;
+    width: 15%;
+    position: absolute;
+    top: 46px;
+    left: 10px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  
+  .PostMonth time {
+    color: #ffffff;
+    font-family: 'roboto-Regular';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  
+  .Post:hover .Post__Img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(17, 17, 17, 0.7);
+    transition: all .3s ease;
+  }
+  
+  .Post:hover .PostText__Сontent {
+    background-color: #362f2d;
+  }
+  
+  .Post:hover .PostDate {
+    background-color: #c7b299;
+    transition: all .3s ease;
+  }
+  
+  .Post:hover .PostMonth {
+    background-color: #a48d72;
+    transition: all .3s ease;
+  }
+
+  @media (min-width: 1120px) and (max-width: 1380px) {
+    
+  }
+  
